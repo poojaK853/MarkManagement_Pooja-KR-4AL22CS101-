@@ -1,6 +1,8 @@
 # MarkManagement_Pooja-KR-4AL22CS101-
 MarkWebApp
+
 📘 Project Purpose
+
 MarkWebApp is a Java-based web application designed to manage student examination marks. It provides functionality to:
 
 Add, update, delete, and display student mark records
@@ -17,7 +19,9 @@ CREATE TABLE StudentMarks (
     ExamDate DATE
 );
 🔧 Modules & Functionalities
+
 ✅ Mark Management
+
 MarkAdd – Add new student marks
 
 MarkUpdate – Update existing student marks
@@ -27,6 +31,7 @@ MarkDelete – Delete student records
 MarkDisplay – Display all records or search by StudentID
 
 📊 Report Generation
+
 Students with marks above a specified value
 
 Students who scored in a specific subject
@@ -47,19 +52,21 @@ MarkWebApp/
 ├── src/
 │   ├── com/
 │   ├── dao/
-│   │   └── MarkDAO.java              # Handles DB interactions
+│   │   └── MarkDAO.java             
 │   ├── model/
-│   │   └── StudentMark.java          # JavaBean model for StudentMarks
+│   │   └── StudentMark.java          
 │   └── servlet/
-│       ├── AddMarkServlet.java       # Handles addition of marks
-│       ├── UpdateMarkServlet.java    # Handles mark updates
-│       ├── DeleteMarkServlet.java    # Handles deletion
-│       ├── DisplayMarksServlet.java  # Displays student marks
-│       ├── ReportServlet.java        # Generates reports
-│       └── ReportCriteriaServlet.java# Handles report criteria selection
+│       ├── AddMarkServlet.java       
+│       ├── UpdateMarkServlet.java    
+│       ├── DeleteMarkServlet.java   
+│       ├── DisplayMarksServlet.java  
+│       ├── ReportServlet.java        
+│       └── ReportCriteriaServlet.java
 └── WEB-INF/
-    └── web.xml                       # Servlet configuration
+    └── web.xml  
+    
 🚀 Getting Started
+
 Import the project into an IDE (e.g., Eclipse or IntelliJ)
 
 Set up your web server (e.g., Apache Tomcat)
@@ -69,6 +76,7 @@ Configure database connectivity in MarkDAO.java
 Deploy the application and access it via index.jsp
 
 📌 Notes
+
 Ensure the database and StudentMarks table are created before running the application
 
 You can modify web.xml for URL mappings and servlet configuration
